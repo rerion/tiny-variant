@@ -4,6 +4,7 @@
   "description": "\"Tiny typescript utility for dealing with discriminated unions\"",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "repository": "github:rerion/tiny-variant",
   "scripts": {
     "build": "tsc",
     "test": "jest --watch"
