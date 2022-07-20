@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "ESNext",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "target": "ES5",
+        "declaration": true,
+        "lib": [
+            "ES2015.Proxy"
+        ],
+        "outDir": "build"
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]    
+}
